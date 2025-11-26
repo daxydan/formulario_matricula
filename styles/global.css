@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --font-family: 'Poppins', sans-serif;
     --text: 400 1rem/1.5(var(--font-family));
@@ -22,6 +23,18 @@
 
 }
 
-body{
+body {
     overflow: hidden;
+    font: var(--text);
+    color: var(--text-secondary);
+}
+
+h1,
+h2 {
+    color: var(--text-primary);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
